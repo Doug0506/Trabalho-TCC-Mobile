@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arter Legends</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Se não tiver uma conta. Clique aqui</string>
+    <string name="txt_cadastro">Cadastre-se</string>
+    <string name="txt_titulo">Arter Legends</string>
+    <string name="txt_texto">O Jogo se trata de uma aventura com ar de campos e um objetivo inalcançável que se mostra muito mais simples do que realmente parece, mas que tem uma profundidade dentro das pessoas que estão nesse ambiente e os dilemas éticos que você vai enfrentar. Os ambientes têm como temática a cor azul e contemplação de um ambiente rural com moradores tranquilos e que vai se tornando cada vez mais militarizado e com forme você vai acendendo se torna um local de sábios. A arquitetura dos ambientes é uma mistura de algo costeiro, com arquitetura feudal japonesa e com inspirações no budismo. </string>
+    <string name="detalhe">Detalhamento aprofundado do jogo</string>
+</resources>
