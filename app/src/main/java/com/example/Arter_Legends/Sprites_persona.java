@@ -22,10 +22,8 @@ public class Sprites_persona extends AppCompatActivity {
         btn_apresentação.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://etecspgov-my.sharepoint.com/:p:/g/personal/bryan_leite_etec_sp_gov_br/EcTaE-xUr2JPqIrXPQ1phaMBCZauKI0_CXM8XG7LkpYqmw?rtime=4BQgxnfS2kg";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+                Intent  intent = new Intent(Sprites_persona.this, SlideShow.class);
+                startActivity(intent);
             }
         });
 

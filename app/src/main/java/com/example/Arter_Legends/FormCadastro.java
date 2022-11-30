@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -33,7 +34,7 @@ public class FormCadastro extends AppCompatActivity {
 
      EditText edit_nome, edit_email;
      TextInputEditText edit_senha;
-     Button btncadastrar;
+     Button btncadastrar, btnvoltar;
      String UsuarioID;
 
     @Override
@@ -46,8 +47,16 @@ public class FormCadastro extends AppCompatActivity {
         edit_senha=findViewById(R.id.edit_senha);
         edit_email=findViewById(R.id.edit_email);
         btncadastrar = findViewById(R.id.btncadastrar);
+        btnvoltar = findViewById(R.id.btnvoltar);
 
 
+        btnvoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FormCadastro.this, FormLogin.class);
+                startActivity(intent);
+            }
+        });
         btncadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

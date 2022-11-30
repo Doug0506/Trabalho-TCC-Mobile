@@ -13,24 +13,25 @@
         android:id="@+id/txt_cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
         android:text="@string/txt_cadastro"
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/login"
-        android:layout_width="248dp"
-        android:layout_height="184dp"
-        android:src="@drawable/arter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="411dp"
+        android:layout_height="203dp"
+        android:src="@drawable/arter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -48,16 +49,23 @@
     <EditText
         android:id="@+id/edit_nome"
         style="@style/Edit_text"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
         android:hint="Nome"
-        android:textColorHint="@color/gray"
         android:inputType="text"
-        app:layout_constraintTop_toTopOf="@id/ContainerComponents"
+
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@id/ContainerComponents"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="@id/ContainerComponents"
-        app:layout_constraintEnd_toEndOf="@id/ContainerComponents"/>
+        app:layout_constraintTop_toTopOf="@id/ContainerComponents" />
 
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_text"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
         android:hint="Email"
         android:textColorHint="@color/gray"
         android:drawableRight="@drawable/ic_email"
@@ -69,8 +77,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         style="@style/Edit_text"
-        android:layout_width="324dp"
-        android:layout_height="74dp"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
         android:hint="Senha"
         android:textColor="@color/gray"
         android:textColorHint="@color/gray"
@@ -86,7 +94,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@id/edit_senha"
             android:layout_width="300dp"
-            android:layout_height="88dp"
+            android:layout_height="80dp"
             android:layout_marginStart="-15dp"
             android:layout_marginTop="-30dp"
             android:backgroundTint="@android:color/white"
@@ -106,24 +114,23 @@
         android:id="@+id/btnvoltar"
         style="@style/Button"
         android:background="@color/botão"
-        android:text="Cadastrar"
+        android:text="Voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.914" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btncadastrar"
         style="@style/Button"
         android:background="@color/botão"
-        android:text="Voltar"
+        android:text="Cadastrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintVertical_bias="0.78" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -100,7 +100,7 @@ public class FormLogin extends AppCompatActivity {
                         throw task.getException();
                     }
                     catch (Exception e){
-                        erro = "Ocorreu um erro ao cadastrar o usuario";
+                        erro = "Ocorreu um erro ao cadastrar com o usuário";
                     }
 
                     Toast.makeText(FormLogin.this, erro, Toast.LENGTH_SHORT).show();
